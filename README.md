@@ -1,6 +1,5 @@
 # Rails Projects
 
----
 
 ## 概要
 
