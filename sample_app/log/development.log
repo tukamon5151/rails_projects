@@ -2143,3 +2143,944 @@ Started GET "/assets/users-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 a
 
 
 Started GET "/assets/application-4f1d61c2aa0d4fb2bb7e093010fa95c1.js?body=1" for ::1 at 2015-04-07 11:43:51 +0900
+
+
+Started GET "/users/2" for ::1 at 2015-04-07 12:09:45 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered users/show.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 173ms (Views: 136.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/custom-0452c4a2b6713dcb6b068ab96b56acd8.css?body=1" for ::1 at 2015-04-07 12:09:45 +0900
+
+
+Started GET "/assets/users-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-07 12:09:45 +0900
+
+
+Started GET "/assets/application-b46bb42deea0f9253eaaa6dd60db63a9.css?body=1" for ::1 at 2015-04-07 12:09:45 +0900
+
+
+Started GET "/assets/jquery_ujs-6c1c10c972583b1de3a84b9d75b6a1a7.js?body=1" for ::1 at 2015-04-07 12:09:45 +0900
+
+
+Started GET "/assets/static_pages-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-07 12:09:45 +0900
+
+
+Started GET "/assets/turbolinks-ce19d43cbbccb376f3903cf93aff19f8.js?body=1" for ::1 at 2015-04-07 12:09:45 +0900
+
+
+Started GET "/assets/jquery-d21dbca9c8f5bd0447f9a008d5145aca.js?body=1" for ::1 at 2015-04-07 12:09:45 +0900
+
+
+Started GET "/assets/static_pages-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-07 12:09:45 +0900
+
+
+Started GET "/assets/users-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-07 12:09:45 +0900
+
+
+Started GET "/assets/application-4f1d61c2aa0d4fb2bb7e093010fa95c1.js?body=1" for ::1 at 2015-04-07 12:09:45 +0900
+
+
+Started GET "/users/2" for ::1 at 2015-04-07 12:09:45 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 53ms (Views: 51.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom-0452c4a2b6713dcb6b068ab96b56acd8.css?body=1" for ::1 at 2015-04-07 12:09:46 +0900
+
+
+Started GET "/assets/jquery_ujs-6c1c10c972583b1de3a84b9d75b6a1a7.js?body=1" for ::1 at 2015-04-07 12:09:46 +0900
+
+
+Started GET "/assets/static_pages-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-07 12:09:46 +0900
+
+
+Started GET "/assets/jquery-d21dbca9c8f5bd0447f9a008d5145aca.js?body=1" for ::1 at 2015-04-07 12:09:46 +0900
+
+
+Started GET "/assets/application-b46bb42deea0f9253eaaa6dd60db63a9.css?body=1" for ::1 at 2015-04-07 12:09:46 +0900
+
+
+Started GET "/assets/static_pages-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-07 12:09:46 +0900
+
+
+Started GET "/assets/users-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-07 12:09:46 +0900
+
+
+Started GET "/assets/users-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-07 12:09:46 +0900
+
+
+Started GET "/assets/application-4f1d61c2aa0d4fb2bb7e093010fa95c1.js?body=1" for ::1 at 2015-04-07 12:09:46 +0900
+
+
+Started GET "/assets/turbolinks-ce19d43cbbccb376f3903cf93aff19f8.js?body=1" for ::1 at 2015-04-07 12:09:46 +0900
+
+
+Started GET "/users/2" for ::1 at 2015-04-07 12:30:04 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered users/show.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 333ms (Views: 296.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/sessions-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-07 12:30:05 +0900
+
+
+Started GET "/assets/application-11651e20a4cd0c2012dc0f04f8039be2.js?body=1" for ::1 at 2015-04-07 12:30:05 +0900
+
+
+Started GET "/assets/static_pages-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-07 12:30:05 +0900
+
+
+Started GET "/assets/custom-0452c4a2b6713dcb6b068ab96b56acd8.css?body=1" for ::1 at 2015-04-07 12:30:05 +0900
+
+
+Started GET "/assets/users-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-07 12:30:05 +0900
+
+
+Started GET "/assets/sessions-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-07 12:30:05 +0900
+
+
+Started GET "/assets/application-b46bb42deea0f9253eaaa6dd60db63a9.css?body=1" for ::1 at 2015-04-07 12:30:05 +0900
+
+
+Started GET "/assets/jquery-d21dbca9c8f5bd0447f9a008d5145aca.js?body=1" for ::1 at 2015-04-07 12:30:05 +0900
+
+
+Started GET "/assets/jquery_ujs-6c1c10c972583b1de3a84b9d75b6a1a7.js?body=1" for ::1 at 2015-04-07 12:30:05 +0900
+
+
+Started GET "/assets/turbolinks-ce19d43cbbccb376f3903cf93aff19f8.js?body=1" for ::1 at 2015-04-07 12:30:05 +0900
+
+
+Started GET "/assets/static_pages-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-07 12:30:05 +0900
+
+
+Started GET "/assets/users-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-07 12:30:05 +0900
+
+
+Started GET "/" for ::1 at 2015-04-07 12:30:07 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 71ms (Views: 70.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails-4399f5856621bc94e63d47b21175b3d4.jpg" for ::1 at 2015-04-07 12:30:07 +0900
+
+
+Started GET "/signup" for ::1 at 2015-04-07 12:30:10 +0900
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (3.9ms)
+  Rendered users/new.html.erb within layouts/application (28.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 94ms (Views: 93.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signin" for ::1 at 2015-04-07 12:30:21 +0900
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 80ms (Views: 77.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-0452c4a2b6713dcb6b068ab96b56acd8.css?body=1" for ::1 at 2015-04-07 12:30:22 +0900
+
+
+Started GET "/assets/users-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-07 12:30:22 +0900
+
+
+Started GET "/assets/static_pages-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-07 12:30:22 +0900
+
+
+Started GET "/assets/application-b46bb42deea0f9253eaaa6dd60db63a9.css?body=1" for ::1 at 2015-04-07 12:30:22 +0900
+
+
+Started GET "/assets/jquery_ujs-6c1c10c972583b1de3a84b9d75b6a1a7.js?body=1" for ::1 at 2015-04-07 12:30:22 +0900
+
+
+Started GET "/assets/jquery-d21dbca9c8f5bd0447f9a008d5145aca.js?body=1" for ::1 at 2015-04-07 12:30:22 +0900
+
+
+Started GET "/assets/turbolinks-ce19d43cbbccb376f3903cf93aff19f8.js?body=1" for ::1 at 2015-04-07 12:30:22 +0900
+
+
+Started GET "/assets/static_pages-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-07 12:30:22 +0900
+
+
+Started GET "/assets/users-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-07 12:30:22 +0900
+
+
+Started GET "/signup" for ::1 at 2015-04-07 12:30:28 +0900
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered users/new.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 92ms (Views: 91.4ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddRememberTokenToUsers (20150407035557)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "users" ADD "remember_token" varchar[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddRememberTokenToUsers (20150407035557)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "users" ADD "remember_token" varchar[0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (8.0ms)[0m  [1mCREATE  INDEX "index_users_on_remember_token" ON "users" ("remember_token")[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150407035557"]]
+  [1m[36m (3.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_remember_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_remember_token' AND type='index'
+[0m
+  [1m[36m (1.2ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "password_digest" varchar, "remember_token" varchar) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.1ms)[0m  [1mCREATE  INDEX "index_users_on_remember_token" ON "users" ("remember_token")[0m
+  [1m[35m (0.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (0.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150407035557')[0m
+  [1m[35m (0.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150406065918')
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150406073240')[0m
+
+
+Started GET "/signup" for ::1 at 2015-04-07 13:16:10 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (3.0ms)
+  Rendered users/new.html.erb within layouts/application (29.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 209ms (Views: 183.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/custom-0452c4a2b6713dcb6b068ab96b56acd8.css?body=1" for ::1 at 2015-04-07 13:16:11 +0900
+
+
+Started GET "/assets/application-b46bb42deea0f9253eaaa6dd60db63a9.css?body=1" for ::1 at 2015-04-07 13:16:11 +0900
+
+
+Started GET "/assets/sessions-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-07 13:16:11 +0900
+
+
+Started GET "/assets/users-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-07 13:16:11 +0900
+
+
+Started GET "/assets/jquery-d21dbca9c8f5bd0447f9a008d5145aca.js?body=1" for ::1 at 2015-04-07 13:16:11 +0900
+
+
+Started GET "/assets/static_pages-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-07 13:16:11 +0900
+
+
+Started GET "/assets/jquery_ujs-6c1c10c972583b1de3a84b9d75b6a1a7.js?body=1" for ::1 at 2015-04-07 13:16:11 +0900
+
+
+Started GET "/assets/turbolinks-ce19d43cbbccb376f3903cf93aff19f8.js?body=1" for ::1 at 2015-04-07 13:16:11 +0900
+
+
+Started GET "/assets/sessions-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-07 13:16:11 +0900
+
+
+Started GET "/assets/static_pages-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-07 13:16:11 +0900
+
+
+Started GET "/assets/users-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-07 13:16:11 +0900
+
+
+Started GET "/assets/application-11651e20a4cd0c2012dc0f04f8039be2.js?body=1" for ::1 at 2015-04-07 13:16:11 +0900
+
+
+Started GET "/" for ::1 at 2015-04-07 13:16:12 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 63ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails-4399f5856621bc94e63d47b21175b3d4.jpg" for ::1 at 2015-04-07 13:16:12 +0900
+
+
+Started GET "/" for ::1 at 2015-04-08 11:45:34 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (13.4ms)
+Completed 500 Internal Server Error in 434ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `current_user' for #<#<Class:0x007fe029019918>:0x007fe029018e50>):
+     6: 						<ul class="nav pull-right">
+     7: 								<li><%= link_to "Home",    root_path %></li>
+     8: 								<li><%= link_to "Help",    help_path %></li>
+     9: 								<% if signed_in? %>
+    10: 										<li><%= link_to "Users",'#' %>
+    11: 										<li id="fat-menu" class="dropdown">
+    12: 												<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/helpers/sessions_helper.rb:11:in `signed_in?'
+  app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__2462318358453003535_70300358166720'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__593210809557941618_70300360088800'
+
+
+  Rendered /Users/TsukamotoYudai/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /Users/TsukamotoYudai/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/TsukamotoYudai/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/TsukamotoYudai/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (67.8ms)
+
+
+Started GET "/" for ::1 at 2015-04-08 11:47:15 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (9.9ms)
+Completed 500 Internal Server Error in 237ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/TsukamotoYudai/Project/rails_projects/sample_app/app/models/user.rb:28: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/models/user.rb:28: syntax error, unexpected keyword_end, expecting end-of-input
+  app/helpers/sessions_helper.rb:19:in `current_user'
+  app/helpers/sessions_helper.rb:11:in `signed_in?'
+  app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb___4368593216291359954_70133543281560'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___2051587866218974785_70133543083720'
+
+
+  Rendered /Users/TsukamotoYudai/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /Users/TsukamotoYudai/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/TsukamotoYudai/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/TsukamotoYudai/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (70.4ms)
+
+
+Started GET "/" for ::1 at 2015-04-08 11:47:39 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (27.4ms)
+Completed 500 Internal Server Error in 256ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `encrypt' for #<Class:0x007ff3573d8ce8>):
+     6: 						<ul class="nav pull-right">
+     7: 								<li><%= link_to "Home",    root_path %></li>
+     8: 								<li><%= link_to "Help",    help_path %></li>
+     9: 								<% if signed_in? %>
+    10: 										<li><%= link_to "Users",'#' %>
+    11: 										<li id="fat-menu" class="dropdown">
+    12: 												<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/helpers/sessions_helper.rb:19:in `current_user'
+  app/helpers/sessions_helper.rb:11:in `signed_in?'
+  app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb___2458487268939893376_70341558780820'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___1352628318016593933_70341558272480'
+
+
+  Rendered /Users/TsukamotoYudai/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /Users/TsukamotoYudai/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/TsukamotoYudai/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/TsukamotoYudai/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (57.1ms)
+
+
+Started GET "/" for ::1 at 2015-04-08 11:48:29 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = ? LIMIT 1  [["remember_token", "ebde760b4a2de86565686154897de92250a98fb4"]]
+  Rendered layouts/_header.html.erb (33.2ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 280ms (Views: 270.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap-transition-9ad139492528867d9968cb446ef313c3.js?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/bootstrap-affix-c503e20645c2e78dfd290694c7913062.js?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/bootstrap-alert-d4ecb813e0d23bbb0c046b374938a44b.js?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/bootstrap-carousel-f1fc49e2a6e12be0d3d31276d98b343b.js?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/bootstrap-collapse-3c231d27d17d21bd9b97a410a41c2f01.js?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/bootstrap-button-70c431069701c4166167696d8b331e4f.js?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/static_pages-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/sessions-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/custom-0452c4a2b6713dcb6b068ab96b56acd8.css?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/application-b46bb42deea0f9253eaaa6dd60db63a9.css?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/bootstrap-dropdown-11d661958aa11d16a0ffc86072565844.js?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/users-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/bootstrap-modal-8d6b20923cd6843c9498ad699d7b56f7.js?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/bootstrap-scrollspy-45947610f708cfe4f81afc69f2d7953e.js?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/bootstrap-tab-08a35c1afeb660b5a3cfa03bf0c40699.js?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/bootstrap-tooltip-66e3cf62e3a3014dc29dc7a8523c9a9e.js?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/bootstrap-popover-2418b9d6d8f8dde60913f69a66995350.js?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/bootstrap-typeahead-0af0d2a64c913c387a94e968384ad328.js?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/bootstrap-821bfd5a0fbd3c7400032a394b23470e.js?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/application-b026b43f3567f06fb74f27fa065d9c07.js?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/jquery-d21dbca9c8f5bd0447f9a008d5145aca.js?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/jquery_ujs-6c1c10c972583b1de3a84b9d75b6a1a7.js?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/turbolinks-ce19d43cbbccb376f3903cf93aff19f8.js?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/sessions-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/static_pages-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/users-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/assets/rails-4399f5856621bc94e63d47b21175b3d4.jpg" for ::1 at 2015-04-08 11:48:30 +0900
+
+
+Started GET "/" for ::1 at 2015-04-08 11:49:37 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = ? LIMIT 1[0m  [["remember_token", "ebde760b4a2de86565686154897de92250a98fb4"]]
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 140ms (Views: 138.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom-0452c4a2b6713dcb6b068ab96b56acd8.css?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/users-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/sessions-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/jquery-d21dbca9c8f5bd0447f9a008d5145aca.js?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/application-b46bb42deea0f9253eaaa6dd60db63a9.css?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/static_pages-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/bootstrap-affix-c503e20645c2e78dfd290694c7913062.js?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/bootstrap-transition-9ad139492528867d9968cb446ef313c3.js?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/jquery_ujs-6c1c10c972583b1de3a84b9d75b6a1a7.js?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/bootstrap-alert-d4ecb813e0d23bbb0c046b374938a44b.js?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/bootstrap-button-70c431069701c4166167696d8b331e4f.js?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/bootstrap-carousel-f1fc49e2a6e12be0d3d31276d98b343b.js?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/bootstrap-collapse-3c231d27d17d21bd9b97a410a41c2f01.js?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/bootstrap-modal-8d6b20923cd6843c9498ad699d7b56f7.js?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/bootstrap-dropdown-11d661958aa11d16a0ffc86072565844.js?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/bootstrap-tab-08a35c1afeb660b5a3cfa03bf0c40699.js?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/bootstrap-scrollspy-45947610f708cfe4f81afc69f2d7953e.js?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/bootstrap-tooltip-66e3cf62e3a3014dc29dc7a8523c9a9e.js?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/bootstrap-popover-2418b9d6d8f8dde60913f69a66995350.js?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/bootstrap-typeahead-0af0d2a64c913c387a94e968384ad328.js?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/bootstrap-821bfd5a0fbd3c7400032a394b23470e.js?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/turbolinks-ce19d43cbbccb376f3903cf93aff19f8.js?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/sessions-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/static_pages-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/users-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/rails-4399f5856621bc94e63d47b21175b3d4.jpg" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/assets/application-b026b43f3567f06fb74f27fa065d9c07.js?body=1" for ::1 at 2015-04-08 11:49:37 +0900
+
+
+Started GET "/signin" for ::1 at 2015-04-08 11:49:39 +0900
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (17.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = ? LIMIT 1  [["remember_token", "ebde760b4a2de86565686154897de92250a98fb4"]]
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 138ms (Views: 136.9ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/sessions" for ::1 at 2015-04-08 11:49:45 +0900
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6oQ4xQQtiQaUE3jnZ/RfUx/4J6QzgihzBeaRlY/9+jNoPKUlfh14idoman+X0nCxx7YVL++Ryx1yEi5gRaoACQ==", "session"=>{"email"=>"yudai.sr400@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "yudai.sr400@gmail.com"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "remember_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["remember_token", "c9253830e8270e78c7adfabc64860be7b219216b"], ["updated_at", "2015-04-08 02:49:45.455932"], ["id", 1]]
+  [1m[35m (2.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 94ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/users/1" for ::1 at 2015-04-08 11:49:45 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = ? LIMIT 1  [["remember_token", "c9253830e8270e78c7adfabc64860be7b219216b"]]
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 125ms (Views: 123.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application-b46bb42deea0f9253eaaa6dd60db63a9.css?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/custom-0452c4a2b6713dcb6b068ab96b56acd8.css?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/users-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/sessions-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/static_pages-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/jquery-d21dbca9c8f5bd0447f9a008d5145aca.js?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/jquery_ujs-6c1c10c972583b1de3a84b9d75b6a1a7.js?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/bootstrap-transition-9ad139492528867d9968cb446ef313c3.js?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/bootstrap-affix-c503e20645c2e78dfd290694c7913062.js?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/bootstrap-alert-d4ecb813e0d23bbb0c046b374938a44b.js?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/bootstrap-carousel-f1fc49e2a6e12be0d3d31276d98b343b.js?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/bootstrap-button-70c431069701c4166167696d8b331e4f.js?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/bootstrap-collapse-3c231d27d17d21bd9b97a410a41c2f01.js?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/bootstrap-modal-8d6b20923cd6843c9498ad699d7b56f7.js?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/bootstrap-scrollspy-45947610f708cfe4f81afc69f2d7953e.js?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/bootstrap-dropdown-11d661958aa11d16a0ffc86072565844.js?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/bootstrap-tab-08a35c1afeb660b5a3cfa03bf0c40699.js?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/bootstrap-tooltip-66e3cf62e3a3014dc29dc7a8523c9a9e.js?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/bootstrap-popover-2418b9d6d8f8dde60913f69a66995350.js?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/bootstrap-typeahead-0af0d2a64c913c387a94e968384ad328.js?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/bootstrap-821bfd5a0fbd3c7400032a394b23470e.js?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/turbolinks-ce19d43cbbccb376f3903cf93aff19f8.js?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/sessions-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/static_pages-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/users-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started GET "/assets/application-b026b43f3567f06fb74f27fa065d9c07.js?body=1" for ::1 at 2015-04-08 11:49:45 +0900
+
+
+Started DELETE "/signout" for ::1 at 2015-04-08 11:49:51 +0900
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"1++9h1V8ySC3bO4NyA2tUs9SnxLUiNQ+qIAHun0tCOdVVyBnL0w4r/lZ/JU4K4KwFxytmQibN1DfdLhPt3ry3Q=="}
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template sessions/destroy, application/destroy with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/TsukamotoYudai/Project/rails_projects/sample_app/app/views"
+):
+  actionview (4.2.1) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.1) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.1) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.1) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.1) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.1) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.1) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.1) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.1) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/TsukamotoYudai/.rbenv/versions/2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.1) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.1) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.1) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.1) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/TsukamotoYudai/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/TsukamotoYudai/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/TsukamotoYudai/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/TsukamotoYudai/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /Users/TsukamotoYudai/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/TsukamotoYudai/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/TsukamotoYudai/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (63.6ms)
+
+
+Started GET "/" for ::1 at 2015-04-08 11:51:19 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = ? LIMIT 1[0m  [["remember_token", "c9253830e8270e78c7adfabc64860be7b219216b"]]
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 128ms (Views: 127.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/custom-0452c4a2b6713dcb6b068ab96b56acd8.css?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/sessions-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/static_pages-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/jquery-d21dbca9c8f5bd0447f9a008d5145aca.js?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/application-b46bb42deea0f9253eaaa6dd60db63a9.css?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/users-bfd9b813b3d5121ad480bb8a65fd9bbc.css?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/jquery_ujs-6c1c10c972583b1de3a84b9d75b6a1a7.js?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/bootstrap-transition-9ad139492528867d9968cb446ef313c3.js?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/bootstrap-affix-c503e20645c2e78dfd290694c7913062.js?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/bootstrap-alert-d4ecb813e0d23bbb0c046b374938a44b.js?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/bootstrap-button-70c431069701c4166167696d8b331e4f.js?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/bootstrap-collapse-3c231d27d17d21bd9b97a410a41c2f01.js?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/bootstrap-dropdown-11d661958aa11d16a0ffc86072565844.js?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/bootstrap-carousel-f1fc49e2a6e12be0d3d31276d98b343b.js?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/bootstrap-tab-08a35c1afeb660b5a3cfa03bf0c40699.js?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/bootstrap-scrollspy-45947610f708cfe4f81afc69f2d7953e.js?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/bootstrap-tooltip-66e3cf62e3a3014dc29dc7a8523c9a9e.js?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/bootstrap-modal-8d6b20923cd6843c9498ad699d7b56f7.js?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/bootstrap-typeahead-0af0d2a64c913c387a94e968384ad328.js?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/bootstrap-popover-2418b9d6d8f8dde60913f69a66995350.js?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/bootstrap-821bfd5a0fbd3c7400032a394b23470e.js?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/turbolinks-ce19d43cbbccb376f3903cf93aff19f8.js?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/sessions-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/static_pages-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/users-7ef84d05e2f06e8ec197af486f8b7b81.js?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/application-b026b43f3567f06fb74f27fa065d9c07.js?body=1" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/assets/rails-4399f5856621bc94e63d47b21175b3d4.jpg" for ::1 at 2015-04-08 11:51:20 +0900
+
+
+Started GET "/help" for ::1 at 2015-04-08 11:51:24 +0900
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = ? LIMIT 1  [["remember_token", "c9253830e8270e78c7adfabc64860be7b219216b"]]
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 122ms (Views: 120.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2015-04-08 11:51:26 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = ? LIMIT 1[0m  [["remember_token", "c9253830e8270e78c7adfabc64860be7b219216b"]]
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 117ms (Views: 116.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/help" for ::1 at 2015-04-08 11:51:27 +0900
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = ? LIMIT 1  [["remember_token", "c9253830e8270e78c7adfabc64860be7b219216b"]]
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 110ms (Views: 109.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/1" for ::1 at 2015-04-08 11:51:29 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = ? LIMIT 1  [["remember_token", "c9253830e8270e78c7adfabc64860be7b219216b"]]
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 115ms (Views: 113.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/1" for ::1 at 2015-04-08 11:51:35 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."remember_token" = ? LIMIT 1  [["remember_token", "c9253830e8270e78c7adfabc64860be7b219216b"]]
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 125ms (Views: 121.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/help" for ::1 at 2015-04-08 11:51:43 +0900
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = ? LIMIT 1[0m  [["remember_token", "c9253830e8270e78c7adfabc64860be7b219216b"]]
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 128ms (Views: 127.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/1" for ::1 at 2015-04-08 11:51:46 +0900
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = ? LIMIT 1[0m  [["remember_token", "c9253830e8270e78c7adfabc64860be7b219216b"]]
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 119ms (Views: 117.6ms | ActiveRecord: 0.2ms)
